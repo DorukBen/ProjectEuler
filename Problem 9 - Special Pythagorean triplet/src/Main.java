@@ -24,7 +24,7 @@ public class Main {
             for (int secondSide = 1; secondSide < SUM_OF_SIDES - firstSide && thirdSide == -1; secondSide++){
                 if (Math.pow(firstSide,2) + Math.pow(secondSide,2) == Math.pow(SUM_OF_SIDES - firstSide - secondSide, 2)){
                     thirdSide = (SUM_OF_SIDES - firstSide - secondSide);
-                    
+
                     System.out.print(firstSide * secondSide * thirdSide);
                 }
             }
