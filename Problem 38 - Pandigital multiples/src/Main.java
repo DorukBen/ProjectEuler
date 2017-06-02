@@ -24,7 +24,7 @@ public class Main {
 
     public static void main(String[] args) {
         String largestProduct = "0";
-        
+
         for (int i = 10; i < 10000; i++ ){
             int n = 0;
             int isPandigital;
